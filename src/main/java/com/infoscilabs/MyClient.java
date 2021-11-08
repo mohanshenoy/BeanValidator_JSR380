@@ -21,6 +21,7 @@ public class MyClient {
 		user.setWorking(false);
 		user.setAboutMe("Its all about me!");
 		user.setAge(51);
+		user.setEmail("m.com");
 		
 		Set<ConstraintViolation<User>> violations = validator.validate(user);
 
